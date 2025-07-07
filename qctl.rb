@@ -1,7 +1,7 @@
 class Qctl < Formula
   desc "Qwilt Open Edge CLI"
   homepage "https://github.com/Qwilt/qctl"
-  url "https://github.com/Qwilt/qctl/archive/refs/tags/v0.11.2.tar.gz"
+  url "https://github.com/Qwilt/qctl/archive/refs/tags/v#{version}.tar.gz"
   version "0.11.2"
 
   if Hardware::CPU.arm?
