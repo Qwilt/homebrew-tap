@@ -2,14 +2,14 @@ class Qctl < Formula
   desc "Qwilt Open Edge CLI"
   homepage "https://github.com/Qwilt/qctl"
   url "https://github.com/Qwilt/qctl/archive/refs/tags/v#{version}.tar.gz"
-  version "0.14.0"
+  version "0.15.0"
 
   if Hardware::CPU.arm?
     url "https://github.com/Qwilt/qctl/releases/download/v#{version}/qctl_darwin_arm64"
-    sha256 "2dc149a630ae5ea013268e399808f14d1ee26e2fe0ddfffcd72ab7722b1e6a49"
+    sha256 "43fae7c1d9021f0a8716aa801e3c5c966b781893d81ce4e1b97529de179cdab6"
   else
     url "https://github.com/Qwilt/qctl/releases/download/v#{version}/qctl_darwin_amd64"
-    sha256 "40d0f977e4c3e2120d2888a0762aeaee08df5801802596663ee12b3f16c5dc69"
+    sha256 "81d24a1e999b9a77951f3e62bc6b039c4e67776f5f2772c3fcf21ad9fe9e93c0"
   end
 
   def install
